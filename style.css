@@ -1,0 +1,116 @@
+body {
+  background-color: black;
+  font-family: "Tienne";
+  color: rgb(250, 223, 217);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+body::selection {
+  background-color: rgba(124, 104, 100, 0.4);
+}
+
+h2 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: justify;
+}
+
+#Card {
+  background-color: rgb(51, 46, 46);
+  padding: 28px;
+  width: 40%;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+#Perfil {
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+#Contatos {
+  width: 80%;
+  list-style: none;
+  flex-direction: column;
+  text-align: justify;
+}
+
+#Resumo {
+  text-align: justify;
+}
+
+.contact {
+  font-weight: bold;
+}
+
+figcaption {
+  font-style: italic;
+  font-size: smaller;
+}
+
+a {
+  color: rgb(250, 223, 217);
+  text-decoration: none;
+  font-weight: normal;
+}
+
+a:hover {
+  color: rgb(250, 172, 154);
+  text-decoration: underline;
+}
+
+#ODS {
+  flex-direction: column;
+}
+
+.Figuras {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+}
+
+#Habilidades {
+  font-weight: lighter;
+  text-align: justify;
+}
+
+.habilities {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+dl {
+  /* display: flex; */
+  flex-direction: column;
+  gap: 8px;
+  text-align: justify;
+}
+
+dt {
+  font-size: large;
+  font-weight: bold;
+}
+
+.date {
+  font-style: italic;
+}
+
+.hobbies {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  text-align: justify;
+}
+
+footer > ul {
+  text-align: justify;
+}
